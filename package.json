@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "@emotion/react": "^11.4.1",
+    "@types/lodash": "^4.14.175",
+    "lodash": "^4.17.21",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },

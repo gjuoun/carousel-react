@@ -37,9 +37,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@emotion/babel-plugin", "virtual:b814ed3810996659baa9c573a562e8ad249d20cf4a2609eacb285aa42bbf5376dcede0ab858fbfc2927ce5aaec07117224f08c065b19a9cb39efc540ac910520#npm:11.3.0"],
             ["@emotion/react", "virtual:b814ed3810996659baa9c573a562e8ad249d20cf4a2609eacb285aa42bbf5376dcede0ab858fbfc2927ce5aaec07117224f08c065b19a9cb39efc540ac910520#npm:11.4.1"],
+            ["@types/lodash", "npm:4.14.175"],
             ["@types/react", "npm:17.0.30"],
             ["@types/react-dom", "npm:17.0.9"],
             ["@vitejs/plugin-react", "npm:1.0.4"],
+            ["lodash", "npm:4.17.21"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:b814ed3810996659baa9c573a562e8ad249d20cf4a2609eacb285aa42bbf5376dcede0ab858fbfc2927ce5aaec07117224f08c065b19a9cb39efc540ac910520#npm:17.0.2"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=32657b"],
@@ -696,6 +698,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@types/lodash", [
+        ["npm:4.14.175", {
+          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.175-67ba7c1d86-50721f33fa.zip/node_modules/@types/lodash/",
+          "packageDependencies": [
+            ["@types/lodash", "npm:4.14.175"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@types/parse-json", [
         ["npm:4.0.0", {
           "packageLocation": "./.yarn/cache/@types-parse-json-npm-4.0.0-298522afa6-fd6bce2b67.zip/node_modules/@types/parse-json/",
@@ -948,9 +959,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["carousel-test", "workspace:."],
             ["@emotion/babel-plugin", "virtual:b814ed3810996659baa9c573a562e8ad249d20cf4a2609eacb285aa42bbf5376dcede0ab858fbfc2927ce5aaec07117224f08c065b19a9cb39efc540ac910520#npm:11.3.0"],
             ["@emotion/react", "virtual:b814ed3810996659baa9c573a562e8ad249d20cf4a2609eacb285aa42bbf5376dcede0ab858fbfc2927ce5aaec07117224f08c065b19a9cb39efc540ac910520#npm:11.4.1"],
+            ["@types/lodash", "npm:4.14.175"],
             ["@types/react", "npm:17.0.30"],
             ["@types/react-dom", "npm:17.0.9"],
             ["@vitejs/plugin-react", "npm:1.0.4"],
+            ["lodash", "npm:4.17.21"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:b814ed3810996659baa9c573a562e8ad249d20cf4a2609eacb285aa42bbf5376dcede0ab858fbfc2927ce5aaec07117224f08c065b19a9cb39efc540ac910520#npm:17.0.2"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=32657b"],
@@ -1744,6 +1757,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lines-and-columns-npm-1.1.6-23e74fab67-198a5436b1.zip/node_modules/lines-and-columns/",
           "packageDependencies": [
             ["lines-and-columns", "npm:1.1.6"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lodash", [
+        ["npm:4.17.21", {
+          "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",
+          "packageDependencies": [
+            ["lodash", "npm:4.17.21"]
           ],
           "linkType": "HARD",
         }]
